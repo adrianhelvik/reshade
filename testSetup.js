@@ -19,7 +19,7 @@ global.defer = () => {
   }
 }
 
-HTMLElement.prototype.attachShadow = function(options = {}) {
+HTMLElement.prototype.attachShadow = function(options) {
   const element = document.createElement('x-shadow')
 
   for (const key of Object.keys(options)) {
