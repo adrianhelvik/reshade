@@ -9,9 +9,9 @@ your React components.
 Simply add the decorator, create a style method and you
 are good to go!
 
-*This project depends on shadow DOM and display: contents.
+**This project depends on shadow DOM and display: contents.
 You should not use this package unless your target browsers
-support these features*
+support these features**
 
 https://caniuse.com/#feat=css-display-contents
 https://caniuse.com/#feat=shadowdomv1
