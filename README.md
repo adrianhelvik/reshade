@@ -1,5 +1,7 @@
 # Reshade
 
+[![Build Status](https://travis-ci.org/adrianhelvik/reshade.svg?branch=master)](https://travis-ci.org/adrianhelvik/reshade)
+
 Reshade is a decorator that lets you write isolated styles in 
 your React components.
 
