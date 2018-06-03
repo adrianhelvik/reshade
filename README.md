@@ -3,7 +3,7 @@
 Reshade is a decorator that lets you write isolated styles in 
 your React components.
 
-Simply add the decorator and create a style method and you
+Simply add the decorator, create a style method and you
 are good to go!
 
 This project depends on shadow DOM. You should not use shadow
