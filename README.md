@@ -19,7 +19,7 @@ import React, { Component } from 'react'
 import reshade from 'reshade'
 
 @reshade
-class Colored extends Component {
+class Example extends Component {
   state = {
     fontSize: '1.1rem',
   }
@@ -48,15 +48,5 @@ class Colored extends Component {
   }
 }
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Colored />
-      </div>
-    )
-  }
-}
-
-export default App
+export default Example
 ```
