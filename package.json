@@ -7,8 +7,8 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^15.0.0",
-    "react-dom": "^16.0.0 || ^15.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "dependencies": {
     "hoist-non-react-statics": "^2.5.0"
@@ -33,5 +33,9 @@
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/testSetup.js"
-  }
+  },
+  "keywords": [
+    "react",
+    "shadow dom"
+  ]
 }
