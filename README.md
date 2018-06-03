@@ -14,7 +14,7 @@ DOM unless you know your target audience supports it.
 
 Currently this is a good fit for internal applications.
 
-```javascript
+```jsx
 import React, { Component } from 'react'
 import reshade from 'reshade'
 
