@@ -9,8 +9,12 @@ your React components.
 Simply add the decorator, create a style method and you
 are good to go!
 
-This project depends on shadow DOM. You should not use shadow
-DOM unless you know your target audience supports it.
+*This project depends on shadow DOM and display: contents.
+You should not use this package unless your target browsers
+support these features*
+
+https://caniuse.com/#feat=css-display-contents
+https://caniuse.com/#feat=shadowdomv1
 
 Currently this is a good fit for internal applications.
 
