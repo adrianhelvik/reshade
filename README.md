@@ -13,8 +13,9 @@ are good to go!
 You should not use this package unless your target browsers
 support these features**
 
-https://caniuse.com/#feat=css-display-contents
-https://caniuse.com/#feat=shadowdomv1
+[Browser support for display: contents](https://caniuse.com/#feat=css-display-contents)
+<br>
+[Browser support for shadow DOM v1](https://caniuse.com/#feat=shadowdomv1)
 
 Currently this is a good fit for internal applications.
 
