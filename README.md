@@ -6,6 +6,9 @@
 ## Installation
 
 `yarn add reshade`
+
+or:
+
 `npm i --save reshade`
 
 ## About

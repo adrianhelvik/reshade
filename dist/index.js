@@ -113,7 +113,8 @@ function shadow(BaseComponent) {
               this.style()
             ),
             _react2.default.createElement(BaseComponent, Object.assign({
-              ref: this.setChild
+              ref: this.setChild,
+              shadow: this.state.shadow
             }, this.props, {
               __emitUpdate__: this.childDidUpdate,
               __pierceUpdate__: this.state.pierce
