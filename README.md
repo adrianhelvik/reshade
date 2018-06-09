@@ -66,4 +66,4 @@ class Example extends Component {
 export default Example
 ```
 
-The shadow root is supplied as a prop.
+The shadow root is supplied as props.shadow
