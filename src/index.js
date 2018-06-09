@@ -67,6 +67,7 @@ export default function shadow(BaseComponent) {
                   </style>
                   <BaseComponent
                     ref={this.setChild}
+                    shadow={this.state.shadow}
                     {...this.props}
                     __emitUpdate__={this.childDidUpdate}
                     __pierceUpdate__={this.state.pierce}

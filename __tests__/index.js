@@ -333,4 +333,21 @@ describe('reshade', () => {
     await clicked.promise
     await updated.promise
   })
+
+  it('passes shadow as a prop', () => {
+    let shadow
+
+    @reshade
+    class MyComponent extends React.Component {
+      render() {
+        shadow = this.props.shadow
+        return null
+      }
+    }
+
+    mount(<MyComponent />)
+
+    expect(shadow).toBeInstanceOf(HTMLElement)
+    expect(shadow.tagName).toBe('X-SHADOW') // Our mocked implementation
+  })
 })
