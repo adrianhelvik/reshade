@@ -3,6 +3,13 @@
 [![Build Status](https://travis-ci.org/adrianhelvik/reshade.svg?branch=master)](https://travis-ci.org/adrianhelvik/reshade)
 [![Coverage Status](https://coveralls.io/repos/github/adrianhelvik/reshade/badge.svg?branch=master)](https://coveralls.io/github/adrianhelvik/reshade?branch=master)
 
+## Installation
+
+`yarn add reshade`
+`npm i --save reshade`
+
+## About
+
 Reshade is a decorator that lets you write isolated styles in 
 your React components.
 
@@ -55,3 +62,5 @@ class Example extends Component {
 
 export default Example
 ```
+
+The shadow root is supplied as a prop.
