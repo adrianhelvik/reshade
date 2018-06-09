@@ -7,7 +7,7 @@
 
 `yarn add reshade`
 
-or:
+or
 
 `npm i --save reshade`
 
